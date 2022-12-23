@@ -1,14 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 5%;
 }
 
 body{
@@ -27,4 +27,20 @@ a{
 
 .text{
     width: 50%;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text > .title{
+    font-size: 2rem;
+
+}
+
+.text > img{
+    width: 30%;
+}
+
+.text > a{
+    font-size: 0.7rem;
 }
