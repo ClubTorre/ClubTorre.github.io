@@ -23,6 +23,8 @@ img{
 a{
     height: 100%;
     width: 40%;
+
+    animation: intro 1s ease-in-out;
 }
 
 .text{
@@ -43,4 +45,15 @@ a{
 
 .text > a{
     font-size: 0.7rem;
+}
+
+
+
+@keyframes intro {
+    from{
+        margin-top: 30%;
+    }
+    to{
+        margin-top: 0%;
+    }
 }
